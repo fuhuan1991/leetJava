@@ -1,4 +1,4 @@
-class Solution {
+class Solution740 {
   public int deleteAndEarn(int[] nums) {
     int[] number = new int [10001];
     for (int x:nums) {
