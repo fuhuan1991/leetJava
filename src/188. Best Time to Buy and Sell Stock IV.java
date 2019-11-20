@@ -1,7 +1,7 @@
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-class Solution {
+class Solution188 {
   public int maxProfit(int k, int[] prices) {
 
     if (prices.length <= 1 || k <= 0) return 0;
