@@ -1,4 +1,4 @@
-class Solution {
+class Solution343 {
   public int integerBreak(int n) {
     int q = n/3;
     int r = n%3;
