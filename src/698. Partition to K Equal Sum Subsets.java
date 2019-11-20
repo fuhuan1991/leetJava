@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class Solution698 {
   public boolean canPartitionKSubsets(int[] nums, int k) {
     int sum = Arrays.stream(nums).sum();
     if (sum%k != 0) return false;
