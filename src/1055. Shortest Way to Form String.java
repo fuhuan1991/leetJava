@@ -1,4 +1,4 @@
-class Solution {
+class Solution1055 {
   public int shortestWay(String source, String target) {
 
     int pt = 0;
