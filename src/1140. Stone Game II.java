@@ -1,4 +1,4 @@
-class Solution {
+class Solution1140 {
   public int stoneGameII(int[] piles) {
     int len = piles.length;
     int[] sum = new int[len + 1];
