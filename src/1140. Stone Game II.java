@@ -9,7 +9,7 @@ class Solution1140 {
       for (int M = 1; M <= len; M++) {
         for (int X = 1; X <= 2 * M && i + X <= len; X++) {
           dp[i][M] = Math.max(dp[i][M], sum[i] - dp[i + X][Math.max(M, X)]);
-          //when i+X==0，dp[i][M]=Math.max(dp[i][M],sum[i])=sum[i];
+
         }
       }
     return dp[0][1];

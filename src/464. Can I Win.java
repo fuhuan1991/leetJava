@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Solution464 {
   public boolean canIWin(int maxChoosableInteger, int desiredTotal) {
     int used = 0;
     Hashtable<Integer, Boolean> mem = new Hashtable<Integer, Boolean>();

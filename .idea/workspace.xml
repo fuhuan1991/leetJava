@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70509d5e-d1c2-4b89-9b7e-8fadba2be979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/1140. Stone Game II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/464. Can I Win.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1140. Stone Game II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/1140. Stone Game II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
@@ -22,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Solution.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1SYqwZa8o6ZB348QTVQC6ZaS42w" />
   <component name="PropertiesComponent">
@@ -127,16 +131,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
