@@ -1,4 +1,4 @@
-class Solution {
+class Solution837 {
   public double new21Game(int N, int K, int W) {
     double[] dp = new double[N + W + 1];
     // dp[x] = the answer when Alice has x points
