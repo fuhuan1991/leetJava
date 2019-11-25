@@ -1,4 +1,6 @@
-class Solution {
+class Solution650 {
+  // the problem can be reduced to finding all the prime
+  // factors of n and sum them up
   public int minSteps(int n) {
     int ans = 0;
     int d = 2;
