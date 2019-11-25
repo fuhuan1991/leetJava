@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-class Solution {
+class Solution983 {
   public int mincostTickets(int[] days, int[] costs) {
     Integer[] memo = new Integer[366];
     HashSet<Integer>planset = new HashSet();
