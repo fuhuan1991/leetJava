@@ -5,7 +5,12 @@ class Test {
 
   public static void main(String[] args) {
     Solution o = new Solution();
-    double r = o.new21Game(1,1,2);
+    int[][] pairs = {
+            {1, 2},
+            {2, 3},
+            {3, 4}
+    };
+    int r = o.findLongestChain(pairs);
     System.out.println(r);
 
   }
