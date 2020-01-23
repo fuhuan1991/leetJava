@@ -1,4 +1,4 @@
-class Solution {
+class Solution490 {
   public boolean hasPath(int[][] maze, int[] start, int[] destination) {
     int M = maze.length;
     int N = maze[0].length;

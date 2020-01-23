@@ -1,7 +1,7 @@
 import java.lang.reflect.Array;
 import java.util.*;
 
-class Solution {
+class Solution505 {
 
   int[][] mem;
   int[][] maze;
