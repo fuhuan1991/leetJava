@@ -9,6 +9,7 @@ class Solution505 {
   int N;
   int[] destination;
 
+
   public int shortestDistance(int[][] maze, int[] start, int[] destination) {
     this.M = maze.length;
     this.N = maze[0].length;
