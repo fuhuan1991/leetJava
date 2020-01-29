@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70509d5e-d1c2-4b89-9b7e-8fadba2be979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/1333. Filter Restaurants by Vegan-Friendly, Price and Distance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1333. Filter Restaurants by Vegan-Friendly, Price and Distance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/1333. Filter Restaurants by Vegan-Friendly, Price and Distance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
