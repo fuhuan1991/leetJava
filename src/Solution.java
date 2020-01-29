@@ -1,68 +1,30 @@
-import java.lang.reflect.Array;
-import java.util.*;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.PriorityQueue;
 
 class Solution {
-
-  int[][] mem;
-  int[][] maze;
-  int M;
-  int N;
-  int[] destination;
-
-  public int shortestDistance(int[][] maze, int[] start, int[] destination) {
-    this.M = maze.length;
-    this.N = maze[0].length;
-    this.mem = new int[M][N];
-    this.maze = maze;
-    this.destination = destination;
-
-    for (int[] row : this.mem) {
-      Arrays.fill(row, Integer.MAX_VALUE);
-    }
-
-    dfs(start[0], start[1], 0);
-    int[][] aaa = this.mem;
-    int r = this.mem[destination[0]][destination[1]];
-    if (r == Integer.MAX_VALUE) {
-      return -1;
-    }
-    return r;
-  }
-
-  private void dfs(int x, int y, int dis) {
-    if (dis >= this.mem[x][y]) {
-      return;
-    } else {
-      this.mem[x][y] = dis;
-    }
-
-//    System.out.println(x + "-" + y);
-
-//    if(x == this.destination[0] && y == this.destination[1] && ) {
-//      return;
-//    }
-
-    int[][] directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-
-    // try all 4 directions
-    for (int[] dir : directions) {
-      int currentX = x;
-      int currentY = y;
-      int currentDis = 0;
-
-      while (
-              0 <= currentX+dir[0] &&
-                      0 <= currentY+dir[1] &&
-                      currentX+dir[0] <= M-1 &&
-                      currentY+dir[1] <= N-1 &&
-                      maze[currentX+dir[0]][currentY+dir[1]] == 0) {
-        currentX = currentX + dir[0];
-        currentY = currentY + dir[1];
-        currentDis++;
+  public List<Integer> filterRestaurants(int[][] restaurants, int veganFriendly, int maxPrice, int maxDistance) {
+    PriorityQueue<Integer> queue = new PriorityQueue<Integer>((a, b) -> {
+      if (restaurants[a][1] == restaurants[b][1]) {
+        return restaurants[b][0] - restaurants[a][0];
+      } else {
+        return restaurants[b][1] - restaurants[a][1];
       }
+    });
 
-      if(currentDis > 0) dfs(currentX, currentY, dis + currentDis);
+    for (int i = 0; i <= restaurants.length-1; ++i) {
+      int[] restaurant = restaurants[i];
+      boolean vegan = veganFriendly == 0 || (veganFriendly == 1 && restaurant[2] == 1);
+
+      if (vegan && restaurant[3] <= maxPrice && restaurant[4] <= maxDistance) {
+        queue.add(i);
+      }
     }
-    return;
+
+    List<Integer> result = new LinkedList<Integer>();
+    while (!queue.isEmpty()) {
+      result.add(restaurants[queue.remove()][0]);
+    }
+    return result;
   }
 }
