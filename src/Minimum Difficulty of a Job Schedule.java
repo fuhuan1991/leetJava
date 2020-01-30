@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.HashMap;
 
-class Solution {
+class Solution1335 {
   int len;
   int[] jobDifficulty;
   int[][] mem;

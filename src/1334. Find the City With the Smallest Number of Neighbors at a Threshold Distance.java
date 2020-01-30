@@ -3,7 +3,7 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 
-class Solution {
+class Solution1334 {
   public int findTheCity(int n, int[][] edges, int distanceThreshold) {
     LinkedList<HashMap<Integer, Integer>> adjacent = new LinkedList<HashMap<Integer, Integer>>();
 
