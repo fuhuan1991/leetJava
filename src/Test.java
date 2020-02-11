@@ -1,12 +1,15 @@
 class Test {
   public static void main(String[] args){
-    SnakeGame obj = new SnakeGame(2, 2, new int[][]{{0,1}});
-
-
+    MyLinkedList obj = new MyLinkedList();
+    obj.addAtHead(10);
     obj.show();
-    obj.move("R");
+    obj.addAtTail(3);
     obj.show();
-    obj.move("D");
+    obj.addAtIndex(1,2);
     obj.show();
+    obj.get(1);
+    obj.deleteAtIndex(0);
+    obj.show();
+    obj.get(1);
   }
 }
