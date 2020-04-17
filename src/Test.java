@@ -4,8 +4,8 @@ import java.util.*;
 class Test {
 
   public static void main(String[] args) {
-    Solution439 o = new Solution439();
-    System.out.println(o.parseTernary("T?T?F:5:3"));
+    Solution765 o = new Solution765();
+    System.out.println(o.minSwapsCouples(new int[]{5,3,4,2,1,0}));
   }
 
 }
