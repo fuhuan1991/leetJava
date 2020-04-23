@@ -4,8 +4,9 @@ import java.util.*;
 class Test {
 
   public static void main(String[] args) {
-    Solution503 o = new Solution503();
-    System.out.println(o.nextGreaterElements(new int[]{1,2,1}));
+    StockSpanner obj = new StockSpanner();
+    int param_1 = obj.next(10);
+    System.out.println(param_1);
   }
 
 }
