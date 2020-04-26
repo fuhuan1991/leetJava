@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70509d5e-d1c2-4b89-9b7e-8fadba2be979" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/331. Verify Preorder Serialization of a Binary Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/636. Exclusive Time of Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/636. Exclusive Time of Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,41 +145,41 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1585274426821" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1587602892372">
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1587915662170">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587602892372" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1587602892370">
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587915662170" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1587915662168">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587602892370" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1587602892370">
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587915662168" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1587915662168">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587602892370" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1587602892371">
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587915662168" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1587915662169">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587602892371" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1587602892374">
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587915662169" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1587915662296">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587602892374" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587915662296" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.788@0.23.1440.788" timestamp="1580743018942" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1587602892373">
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1587915662295">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587602892373" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587915662295" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.788@0.23.1440.788" timestamp="1580743018941" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1587602892372">
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1587915662294">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587602892372" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587915662294" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.788@0.23.1440.788" timestamp="1580743018941" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1587602892373">
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1587915662295">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587602892373" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587915662295" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.788@0.23.1440.788" timestamp="1580743018942" />
     <state x="229" y="63" key="SettingsEditor" timestamp="1587585683017">
       <screen x="0" y="0" width="1440" height="900" />
@@ -188,5 +189,16 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1587501058655" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/331. Verify Preorder Serialization of a Binary Tree.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

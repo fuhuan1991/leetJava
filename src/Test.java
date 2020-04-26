@@ -4,9 +4,8 @@ import java.util.*;
 class Test {
 
   public static void main(String[] args) {
-    StockSpanner obj = new StockSpanner();
-    int param_1 = obj.next(10);
-    System.out.println(param_1);
+    Solution331 obj = new Solution331();
+    System.out.println(obj.isValidSerialization("1,2,#,4,#,5,#,#,3,6,#,#,#"));
   }
 
 }
