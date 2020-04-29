@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70509d5e-d1c2-4b89-9b7e-8fadba2be979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/1124. Longest Well-Performing Interval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1063. Number of Valid Subarrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,10 +140,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="334" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1585403554084" />
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1585274426821">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1588190521492">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1585274426821" />
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1588190521492" />
     <state width="1398" height="59" key="GridCell.Tab.0.bottom" timestamp="1587916092021">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
