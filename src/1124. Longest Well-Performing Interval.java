@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-class Solution {
+class Solution1124 {
   public int longestWPI(int[] hours) {
     if (hours.length == 0) return 0;
 

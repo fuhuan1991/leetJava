@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70509d5e-d1c2-4b89-9b7e-8fadba2be979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/1063. Number of Valid Subarrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/895. Maximum Frequency Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1124. Longest Well-Performing Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/1124. Longest Well-Performing Interval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +22,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Solution.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1SYqwZa8o6ZB348QTVQC6ZaS42w" />
   <component name="ProjectViewState">
@@ -144,22 +144,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1588190521492" />
-    <state width="1398" height="59" key="GridCell.Tab.0.bottom" timestamp="1587916092021">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1588531980851">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="59" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587916092021" />
-    <state width="1398" height="59" key="GridCell.Tab.0.center" timestamp="1587916092019">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588531980851" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1588531980850">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="59" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587916092019" />
-    <state width="1398" height="59" key="GridCell.Tab.0.left" timestamp="1587916092018">
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588531980850" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1588531980849">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="59" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587916092018" />
-    <state width="1398" height="59" key="GridCell.Tab.0.right" timestamp="1587916092020">
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588531980849" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1588531980850">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="59" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587916092020" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588531980850" />
     <state width="1398" height="59" key="GridCell.Tab.1.bottom" timestamp="1587916092023">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
