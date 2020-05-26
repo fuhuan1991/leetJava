@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Solution726 {
   public String countOfAtoms(String formula) {
     Map<String, Integer> map = countHelper(formula);
 
