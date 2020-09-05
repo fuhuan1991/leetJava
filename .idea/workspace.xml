@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70509d5e-d1c2-4b89-9b7e-8fadba2be979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/726. Number of Atoms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1110. Delete Nodes And Return Forest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1338. Reduce Array Size to The Half.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +30,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -129,61 +133,13 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580654089072">
+    <state x="334" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599161130752">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1580654089072" />
-    <state x="334" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585403554084">
+    <state x="334" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1599161130752" />
+    <state x="569" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1599161073245">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="334" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1585403554084" />
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1588190521492">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1588190521492" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1588531980851">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588531980851" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1588531980850">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588531980850" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1588531980849">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588531980849" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1588531980850">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588531980850" />
-    <state width="1398" height="59" key="GridCell.Tab.1.bottom" timestamp="1587916092023">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="59" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587916092023" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.788@0.23.1440.788" timestamp="1580743018942" />
-    <state width="1398" height="59" key="GridCell.Tab.1.center" timestamp="1587916092022">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="59" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587916092022" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.788@0.23.1440.788" timestamp="1580743018941" />
-    <state width="1398" height="59" key="GridCell.Tab.1.left" timestamp="1587916092021">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="59" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587916092021" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.788@0.23.1440.788" timestamp="1580743018941" />
-    <state width="1398" height="59" key="GridCell.Tab.1.right" timestamp="1587916092022">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="59" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587916092022" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.788@0.23.1440.788" timestamp="1580743018942" />
-    <state x="229" y="63" key="SettingsEditor" timestamp="1587585683017">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587585683017" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587501058655">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1587501058655" />
+    <state x="569" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1599161073245" />
   </component>
 </project>

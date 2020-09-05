@@ -1,0 +1,89 @@
+import java.util.HashMap;
+import java.util.PriorityQueue;
+
+class Solution {
+  public double[] medianSlidingWindow(int[] nums, int k) {
+
+    if (k == 1) {
+      double[] result = new double[nums.length];
+      for (int i = 0; i < nums.length; ++i) {
+        result[i] = nums[i];
+      }
+      return result;
+    }
+
+    PriorityQueue<Double> lo = new PriorityQueue<Double>(k/2, (a,b) -> b > a ? 1: -1);
+    PriorityQueue<Double> hi = new PriorityQueue<Double>(k/2, (a,b) -> a > b ? 1: -1);
+    HashMap<Double, Integer> expired = new HashMap<>();
+    double[] result = new double[nums.length - k + 1];
+    int index = 0;
+    boolean even = k%2 == 0;
+
+    for (int i = 0; i < k; ++i) {
+      lo.add((double)nums[i]);
+    }
+
+    for (int i = 0; i < k/2; ++i) {
+      hi.add(lo.poll());
+    }
+
+    while (true) {
+      // out put
+      if (even) {
+        result[index] = (lo.peek() + hi.peek())/2;
+      } else {
+        result[index] = lo.peek();
+      }
+
+      if (index == nums.length - k) break;
+
+      int balance = 0;
+      double newNumber = (double)nums[index + k];
+      double oldNumber = (double)nums[index];
+
+      if (oldNumber <= lo.peek()) {
+        balance--;
+      } else {
+        balance++;
+      }
+
+      if (expired.containsKey(oldNumber)) {
+        expired.put(oldNumber, expired.get(oldNumber) + 1);
+      } else {
+        expired.put(oldNumber, 1);
+      }
+
+      if (newNumber <= lo.peek()) {
+        balance++;
+        lo.add(newNumber);
+      } else {
+        balance--;
+        hi.add(newNumber);
+      }
+
+      if (balance > 0) {
+        hi.add(lo.poll());
+        balance--;
+      }
+
+      if (balance < 0) {
+        lo.add(hi.poll());
+        balance++;
+      }
+
+      while (expired.containsKey(lo.peek()) && expired.get(lo.peek()) > 0) {
+        expired.put(lo.peek(), expired.get(lo.peek())-1);
+        lo.poll();
+      }
+
+      while (expired.containsKey(hi.peek()) && expired.get(hi.peek()) > 0) {
+        expired.put(hi.peek(), expired.get(hi.peek())-1);
+        hi.poll();
+      }
+
+      index++;
+    }
+
+    return result;
+  }
+}
