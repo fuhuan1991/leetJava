@@ -18,7 +18,7 @@ import java.util.List;
  *     }
  * }
  */
-class Solution {
+class Solution366 {
 
   private HashMap<TreeNode, TreeNode> parents;
   private Deque<TreeNode> queue;
@@ -31,7 +31,7 @@ class Solution {
     this.queue = new LinkedList<>();
     this.helper(root, null);
     List<List<Integer>> result = new LinkedList<>();
-    this.queue.offer(new TreeNode(0, root, root));
+    this.queue.offer(new TreeNode(0));
 
     LinkedList<Integer> layer = new LinkedList<>();
     while (!this.queue.isEmpty()) {
@@ -42,7 +42,7 @@ class Solution {
         result.add(layer);
         layer = new LinkedList<>();
         if (this.queue.size() == 0) break;
-        this.queue.offer(new TreeNode(0, root, root));
+        this.queue.offer(new TreeNode(0));
         continue;
       }
 

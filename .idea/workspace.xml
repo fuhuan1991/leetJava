@@ -2,10 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70509d5e-d1c2-4b89-9b7e-8fadba2be979" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/Combination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/Consecutive Numbers Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/CopyListwithRandomPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/CriticalConnection" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/FavoriteGenres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/FreshPromotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/MaxSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/MaxUnits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/MaximumAverageSubtree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/MinDis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/MoviesonFlight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/NearestCities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/PathWithMaxMinValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/PowerGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/PrimeSeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/ProductSuggestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/Search2DMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/SlidingWindowMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/SubtreeofAnotherTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonOA/Turnstile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tempCodeRunnerFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1110. Delete Nodes And Return Forest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1338. Reduce Array Size to The Half.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1063. Number of Valid Subarrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/1063. Number of Valid Subarrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1197. Minimum Knight Moves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/1197. Minimum Knight Moves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1229. Meeting Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/1229. Meeting Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1268. Search Suggestions System.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/1268. Search Suggestions System.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1274. Number of Ships in a Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/1274. Number of Ships in a Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/215. Kth Largest Element in an Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/215. Kth Largest Element in an Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/311. Sparse Matrix Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/311. Sparse Matrix Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/366. Find Leaves of Binary Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/366. Find Leaves of Binary Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/480. Sliding Window Median" beforeDir="false" afterPath="$PROJECT_DIR$/src/480. Sliding Window Median" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/518. Coin Change 2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/518. Coin Change 2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/763. Partition Labels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/763. Partition Labels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/994. Rotting Oranges.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +74,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -52,10 +85,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RunnableDemo" />
+    <configuration name="FavoriteGenres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AmazonOA.FavoriteGenres" />
       <module name="leetJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AmazonOA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FreshPromotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AmazonOA.FreshPromotion" />
+      <module name="leetJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AmazonOA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinDis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AmazonOA.MinDis" />
+      <module name="leetJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AmazonOA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NearestCities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AmazonOA.NearestCities" />
+      <module name="leetJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AmazonOA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,7 +183,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.RunnableDemo" />
+        <item itemvalue="Application.FavoriteGenres" />
+        <item itemvalue="Application.FreshPromotion" />
+        <item itemvalue="Application.MinDis" />
+        <item itemvalue="Application.NearestCities" />
       </list>
     </recent_temporary>
   </component>
@@ -133,13 +217,57 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="334" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599161130752">
+    <state x="334" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600954595730">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="334" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1599161130752" />
+    <state x="334" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1600954595730" />
+    <state x="460" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1600881399947">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="460" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1600881399947" />
     <state x="569" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1599161073245">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="569" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1599161073245" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1601084981135">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601084981135" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.783@0.23.1440.783" timestamp="1600874705446" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1601084981134">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601084981134" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.783@0.23.1440.783" timestamp="1600874705440" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1601084981133">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601084981133" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.783@0.23.1440.783" timestamp="1600874705439" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1601084981134">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601084981134" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.783@0.23.1440.783" timestamp="1600874705442" />
+    <state width="1398" height="59" key="GridCell.Tab.1.bottom" timestamp="1600890167308">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="59" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600890167308" />
+    <state width="1398" height="59" key="GridCell.Tab.1.center" timestamp="1600890167307">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="59" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1600890167307" />
+    <state width="1398" height="59" key="GridCell.Tab.1.left" timestamp="1600890167307">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="59" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1600890167307" />
+    <state width="1398" height="59" key="GridCell.Tab.1.right" timestamp="1600890167308">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="59" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1600890167308" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1600788920823">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600788920823" />
   </component>
 </project>

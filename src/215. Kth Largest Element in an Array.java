@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class Solution215 {
 
   private int[] nums;
 

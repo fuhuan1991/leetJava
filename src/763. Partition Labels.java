@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
-class Solution {
+class Solution763 {
 
   private HashMap<Character, Integer> rightPos = new HashMap<>();
 

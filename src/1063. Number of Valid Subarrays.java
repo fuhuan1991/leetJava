@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-class Solution {
+class Solution1063 {
   public int validSubarrays(int[] nums) {
     if (nums.length == 0) return 0;
 

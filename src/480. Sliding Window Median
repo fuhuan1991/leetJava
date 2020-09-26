@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
-class Solution {
+class Solution480 {
   public double[] medianSlidingWindow(int[] nums, int k) {
 
     if (k == 1) {

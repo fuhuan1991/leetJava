@@ -3,7 +3,7 @@ import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 
-class Solution {
+class Solution1229 {
   public List<Integer> minAvailableDuration(int[][] slots1, int[][] slots2, int duration) {
     Arrays.sort(slots1, Comparator.comparingInt(a -> a[0]));
     Arrays.sort(slots2, Comparator.comparingInt(a -> a[0]));

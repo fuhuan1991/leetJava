@@ -3,33 +3,68 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-class Solution {
+class Solution1268 {
   public List<List<String>> suggestedProducts(String[] products, String searchWord) {
-    Arrays.sort(products);
-    LinkedList<String> prods = new LinkedList<String>(Arrays.asList(products));
-    List<List<String>> result = new LinkedList<List<String>>();
+        Arrays.sort(products);
+        List<List<String>> result = new LinkedList<List<String>>();
+        TrieNode root = new TrieNode();
+      
+        for (String product : products) {
+            TrieNode current = root;
+            int i = 0;
+            while (i < product.length()) {
+                int charIndex = product.charAt(i) - 'a';
+                // System.out.println(charIndex);
+                
+                if (current.pointers[charIndex] != null) {
+                    current = current.pointers[charIndex];
+                } else {
+                    current.pointers[charIndex] = new TrieNode();
+                    current = current.pointers[charIndex];
+                }
+                current.words.add(product);
+                i++;
+            }
+        }
+      
+        TrieNode current = root;
+        int i = 0;
+        boolean noMore = false;
+        while (i < searchWord.length()) {
+            List<String> r = new LinkedList<String>();
+            if (noMore) {
+                result.add(r);
+                i++;
+            } else {
+                int charIndex = searchWord.charAt(i) - 'a';
+             
+                if (current.pointers[charIndex] != null) {
+                    current = current.pointers[charIndex];
+                    int len = Math.min(3, current.words.size());
+                    for (int j = 0; j < len; j++) {
+                        String target = current.words.get(j);
+                        r.add(target);
+                    }
+                } else {
+                    noMore = true;
+                }
 
-    for (int i = 0; i < searchWord.length(); i++) {
-      char c = searchWord.charAt(i);
-      for (int j = 0; j < prods.size();) {
-        String str = prods.get(j);
-        if (str.length() > i && str.charAt(i) != c) {
-          prods.remove(j);
-        } else {
-          j++;
+                result.add(r);
+                i++;
+            }
         }
-      }
-      LinkedList<String> r = new LinkedList<>();
-      if (prods.size() == 0) {
-        result.add(r);
-      } else {
-        int len = Math.min(3, prods.size());
-        for (int k = 0; k < len; k++) {
-          r.add(prods.get(k));
-        }
-        result.add(r);
-      }
-    }
+      
     return result;
   }
+}
+
+class TrieNode {
+    
+    public TrieNode[] pointers;
+    public ArrayList<String> words; 
+        
+    public TrieNode() {
+        this.pointers = new TrieNode[26];
+        this.words = new ArrayList<String>();
+    }
 }

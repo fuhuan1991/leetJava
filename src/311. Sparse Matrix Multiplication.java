@@ -1,4 +1,4 @@
-class Solution {
+class Solution311 {
 
   int len;
   int[][] A;
