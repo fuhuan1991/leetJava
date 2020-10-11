@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70509d5e-d1c2-4b89-9b7e-8fadba2be979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/Combination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/Consecutive Numbers Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/CopyListwithRandomPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/CriticalConnection" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/FavoriteGenres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/FreshPromotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/KMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/MaxSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/MaxUnits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/MaximumAverageSubtree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/MinDis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/MoviesonFlight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/NearestCities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/PathWithMaxMinValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/PowerGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/PrimeSeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/ProductSuggestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/Search2DMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/SlidingWindowMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/SpiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/SubtreeofAnotherTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/Turnstile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tempCodeRunnerFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1063. Number of Valid Subarrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/1063. Number of Valid Subarrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1197. Minimum Knight Moves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/1197. Minimum Knight Moves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1229. Meeting Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/1229. Meeting Scheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1268. Search Suggestions System.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/1268. Search Suggestions System.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1274. Number of Ships in a Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/1274. Number of Ships in a Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/215. Kth Largest Element in an Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/215. Kth Largest Element in an Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/311. Sparse Matrix Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/311. Sparse Matrix Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/366. Find Leaves of Binary Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/366. Find Leaves of Binary Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/480. Sliding Window Median" beforeDir="false" afterPath="$PROJECT_DIR$/src/480. Sliding Window Median" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/518. Coin Change 2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/518. Coin Change 2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/763. Partition Labels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/763. Partition Labels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/994. Rotting Oranges.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AmazonVO/Course Schedule.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
